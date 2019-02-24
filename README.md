@@ -7,6 +7,6 @@ mediawiki的clouflare管理插件
     -在页面更新时自动清空缓存
 ## 配置LocalSettings
     在LocalSettings.php中加入以下代码
-    $wgCloudflareEmail = '&lt;your cloudflare email&gt;';
-    $wgCloudflareApikey = '&lt;your cloudflare apikey&gt;';
+    $wgCloudflareEmail = '<your cloudflare email>';
+    $wgCloudflareApikey = '<your cloudflare apikey>';
     $wgCloudflareEnableAutoPurge = true; //是否允许自动清空缓存
