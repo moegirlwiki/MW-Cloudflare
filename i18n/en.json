@@ -1,0 +1,6 @@
+{
+    "cloudflare-desc": "This extension is used for configuring cloudflare cdn",
+
+    "cfconfiguration": "CloudflareConfiguration",
+    "apihelp-cloudflare_proxy-summary": "cloudflare proxy api"
+}

@@ -1,0 +1,53 @@
+{
+	"name": "Cloudflare",
+	"author": "Ichen",
+	"url": "https://www.mediawiki.org/wiki/Extension:Cloudflare",
+	"descriptionmsg": "cloudflare-desc",
+	"version": "1.0",
+	"license-name": "BSD-2-Clause",
+	"type": "specialpage",
+	"ExtensionMessagesFiles": {
+		"CloudFlareAlias": "Cloudflare.alias.php"
+	},
+	"MessagesDirs": {
+		"Cloudflare": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"TitleSquidURLs": "CacheHooks::onTitleSquidURLs"
+	},
+	"APIModules": {
+		"cloudflare_proxy": "ApiCloudFlare"
+	},
+	"ExtensionFunctions": [
+		
+	],
+	"ResourceModules": {
+		"ext.cloudflare.cf": {
+			"scripts":[
+				
+			],
+			"styles":[
+				"main.css"
+			]
+		}
+	},
+	"AutoloadClasses": {
+		"CacheHooks": "includes/Cloudflare.hooks.php",
+		"Cloudflare\\Cloudflare": "CloudFlare_body.php",
+		"Cloudflare\\SpecialCF": "SpecialCF.php",
+		"ApiCloudFlare": "includes/APICloudFlare.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Cloudflare"
+	},
+	"SpecialPages": {
+		"CFConfiguration": "Cloudflare\\SpecialCF"
+	},
+	"config": {
+        "AutoUpdataCache": false
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,6 @@
+{
+    "cloudflare-desc": "本插件用于cloudflare cdn的配置",
+
+    "cfconfiguration": "Cloudflare配置",
+    "apihelp-cloudflare_proxy-summary": "Cloudflare请求api"
+}
