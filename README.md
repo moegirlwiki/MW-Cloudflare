@@ -1,3 +1,10 @@
+#注意！
+#本插件目前存在权限bug，某些情况下普通用户可以进入cloudflare的特殊页面。
+#本软件目前存在性能问题，purge请求获得步骤需要改进，purge请求发送步骤可以合并。
+
+#使用该插件自负风险。
+
+
 # MW-Cloudflare
 mediawiki的clouflare管理插件
 
